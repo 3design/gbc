@@ -24,7 +24,7 @@ module.exports = {
         "c-txt-l": "#393939",
         "c-fg1-l": "#ffffff",
         "c-fg2-l": "#a4b6c2",
-        "c-fg3-l": "#ea696b",
+        "c-fg3-l": "#00adee",
         "c-fg4-l": "#26C6DA",
         "c-h-l": "#582dd6",        
 

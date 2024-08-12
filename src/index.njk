@@ -14,10 +14,10 @@ eleventyNavigation:
         <div class="place-self-center lg:col-span-8 xl:col-span-6 mx-8 my-8 px-8 z-20 py-8 overflow-hidden bg-white/80">
             <h1
                 class="text-center uppercase text-colour-dark  lg:text-left mb-4 text-3xl/snug font-extrabold tracking-normal md:text-4xl/snug xl:text-5xl/snug ">
-                Immersive <br>Healthcare <br>Collaboration</h1>
+                Global Brain Consortium</h1>
             <p
                 class=" text-center lg:text-left mb-5 mt-5 font-light text-colour-dark mx-15 md:mx-5 md:ml-0 md:mr-6 lg:mb-8 md:text-lg/normal lg:text-xl/normal  ">
-                Supporting high-quality research into immersive technology applications in healthcare
+                A diverse network of brain researchers, clinicians, and institutions committed to achieving improved and more equitable health outcomes worldwide.
             </p>
             <div class="flex mx-auto justify-center md:justify-start">
             <a href="{{'/about/' | url}}" class=" mx-auto lg:mx-0 md:mt-5 button-square-primary new-button ">
@@ -30,9 +30,9 @@ eleventyNavigation:
             </div>
         </div>
      
-        <video autoplay loop muted class="block">
-            <source src="{{'assets/images/content/hero_video.mp4' | url}}" type="video/mp4" />
-        </video>
+        <div class="hero-image">
+            <img src="{{'/assets/images/content/gbc-bg-big.png' | url}}">
+        </div>
     </div>
 {% endrow %}
 
@@ -40,7 +40,7 @@ eleventyNavigation:
 {% row %}
     <div class="bg-c-fg2-l   grid place-content-center max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:grid-cols-12">
         <div class="px-10 py-2 max-w-sm md:max-w-md lg:mt-0 lg:col-span-4 place-self-center mx-auto ">
-            <img src="{{collections.resource[0].data.image | url}}">
+            <img src="{{'/assets/images/content/gbc-bg.png' | url}}">
         </div>
         <div class="mr-auto px-2 place-self-center lg:col-span-8">
             <p
