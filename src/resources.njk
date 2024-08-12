@@ -4,7 +4,7 @@ description: Resources produced by the Immersive Healtcare Collaboration
 layout: layouts/main.njk
 eleventyNavigation:
   key: resources
-  title: Resources
+  title: News & Events
   order: 2
 pagination:
   data: collections.resource
@@ -19,10 +19,10 @@ permalink: "resources/{{pagination.pageNumber}}/"
     <div class="mr-auto place-self-center lg:col-span-12">
       <h1
         class="text-center uppercase text-colour-dark  lg:text-left mb-4 text-3xl/snug font-extrabold tracking-normal md:text-4xl/snug xl:text-5xl/snug ">
-        Resources & Case Studies</h1>
+        News & Events</h1>
       <p
         class=" text-center lg:text-left mb-5 mt-5 font-light text-colour-dark mx-15 md:mx-5 md:ml-0 md:mr-6 lg:mb-8 md:text-lg/normal lg:text-xl/normal  ">
-        Browse the resources and case studies produced and curated by the Immersive Healthcare Collaboration.
+        Browse the News and Events from the Global Brain Consortium.
       </p>
     </div>
   </div>
@@ -64,7 +64,7 @@ permalink: "resources/{{pagination.pageNumber}}/"
               {% if resource.data.type == "case-study" %}
               View Case Study
               {%else%}
-              View Resource
+              Go To Link
               {%endif%}
               
               <svg class="ml-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
