@@ -1,8 +1,6 @@
 name	logo_url	website	is_funder
-NIHR	/assets/images/logos/supported-by-nihr-logo-rgb-col.png	https://leedsbrc.nihr.ac.uk/	True
-University of Leeds	/assets/images/logos/university-of-leeds-logo.webp	https://leeds.ac.uk/	False
-Manchester Metropolitan University	/assets/images/logos/manchester-metropolitan-university-logo.png	https://www.mmu.ac.uk/	False
-Ottawa Hospital Research Institute	/assets/images/logos/ottawa_hospital_research_institute.png	https://www.ohri.ca/home.asp	False
-University College London	/assets/images/logos/ucl_logo.png	https://www.ucl.ac.uk	False
-University of Exeter	/assets/images/logos/university_exeter_logo.png	https://www.exeter.ac.uk	False
-University of Plymouth	/assets/images/logos/university-of-plymouth-logo.png	https://www.plymouth.ac.uk	False
+Healthy Brains, Healthy Lives	/assets/images/logos/healthybrain.jpg	https://www.mcgill.ca/hbhl/	True
+Ludmer Centre	/assets/images/logos/ludmerlogo.png	https://www.mcgill.ca/ludmercentre/	True
+McGill University	/assets/images/logos/mcgill.png	https://www.mcgill.ca/	False
+The Neuro	/assets/images/logos/neuro.png	https://www.mcgill.ca/neuro/	False
+ccc-axis	/assets/images/logos/ccc-axis.png	http://ccc-axis.org/	False
