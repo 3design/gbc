@@ -781,6 +781,11 @@ video {
   height: 100%;
 }
 
+.original-size {
+  width: 100%;
+  height: auto;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
