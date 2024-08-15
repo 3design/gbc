@@ -73,3 +73,5 @@ To run a local version of the website for development purposes:
 
 ### Building and Deploying
 The public version of the website will be built and deployed automatically when a commit is made to the `master` branch of this repository. To run the build script locally, follow the instructions in ["Running Locally"](#running-locally), replacing the final step with the command `npm build`.
+
+### This addition is to force the site to build. Desregard
