@@ -11,7 +11,7 @@ module.exports = {
         "colour-dark": "#3E3A37",
         "colour-dark-2": "#4E4A47",
         "colour-light": "#E5E1DB",
-        "colour-secondary": "#927E6C",
+        "colour-secondary": "#00adee",
         "colour-2":"#a59a89",
         "colour-3":"#baac9a",
         "colour-4":"#ccbfad",
@@ -40,9 +40,9 @@ module.exports = {
       }
     },
     fontFamily: {
-      sans: ['Commissioner', 'sans-serif'],
+      sans: ['Arial', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
-      commy: ['Commissioner']
+      commy: ['Arial']
     },
   },
 }
