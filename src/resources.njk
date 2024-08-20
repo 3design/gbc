@@ -61,10 +61,10 @@ permalink: "resources/{{pagination.pageNumber}}/"
             <a href="{{resource.data.resource_link | url}}"
               class="mx-auto lg:mx-0 md:mt-5 button-square-primary  
               rel="noopener noreferrer">
-              {% if resource.data.type == "case-study" %}
-              View Case Study
-              {%else%}
+              {% if resource.data.type == "external" %}
               Go To Link
+              {%else%}
+              Read More
               {%endif%}
               
               <svg class="ml-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
