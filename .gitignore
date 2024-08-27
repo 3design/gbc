@@ -2,3 +2,4 @@ node_modules
 dist
 .cache
 dist/.DS_Store
+src/assets/images/.DS_Store
