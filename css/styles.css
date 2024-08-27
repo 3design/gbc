@@ -1137,12 +1137,6 @@ iframe.contact-form {
   overflow: hidden;
 }
 
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
