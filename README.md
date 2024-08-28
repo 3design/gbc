@@ -60,9 +60,10 @@ A short description of the resource which will be displayed as text on the resou
 
 Similar to [above](#adding-news-and-events-to-the-site), adding a card for the Newsletters requires the following steps:
 
-- Duplicate an existing `.njk` file in the 'resources' folder.
-- Change the name of the `.njk` file using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
-- Edit the content of the `.njk` file as [above](#adding-news-and-events-to-the-site) with the following 
+1) Duplicate an existing `.njk` file in the 'resources' folder.
+2) Change the name of the `.njk` file using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
+3) Put the PDF in the folder `"src/assets/images/content/newsletters/"`
+4) Edit the content of the `.njk` file as [above](#adding-news-and-events-to-the-site) with the following 
     - type: `resource`
     - resource_link: `"/assets/images/content/newsletters/(filename).pdf"`
 
