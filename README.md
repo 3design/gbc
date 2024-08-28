@@ -4,7 +4,7 @@ This repository contains the development and distribution code for the Global Br
 
 ## Quick Guide to Adding Content
 
-This section will detail how to add content to the website.
+This section will detail how to add content to the website. For more detailed information, please read the [Content Management](#content-management) section of this README.
 
 ### Request to Become a Contributor
 
@@ -53,6 +53,7 @@ The network page contains all the members of the Global Brain Consortium. To add
 10) In the field labelled `website` enter the url for the members website (optional)
 11) Save the `people.tsv` file
 12) Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to `main` branch
+
 
 ---
 
