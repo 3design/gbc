@@ -36,6 +36,18 @@ After cloning or forking the repository, go to your local drive and change the d
 
 You can see an example of how the cards look by going to the [News & Events](https://3design.github.io/gbc/resources/0/) page.
 
+### Adding Newsletters to the News and Events
+
+Similar to [above](#add-a-news-or-event-item), adding a card for the Newsletters requires a few different steps:
+
+1) Duplicate an existing `.njk` file in the 'resources' folder.
+2) Change the name of the `.njk` file using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
+3) Put the PDF in the folder `"src/assets/images/content/newsletters/"`
+4) Edit the content of the `.njk` file as [above](#add-a-news-or-event-item) with the following differences: 
+    - type: `resource`
+    - resource_link: `"/assets/images/content/newsletters/(filename).pdf"`
+5) Save your file
+6) Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to `main` branch
 
 ### Add a Person to the Network
 
@@ -82,7 +94,7 @@ Data for a new member can be added to the network section of the website by edit
 These instructions assume a single developer is maintaining the site. If multiple developers are maintaining the site, use the `pull` request process outlined previously.
 
 ### Adding Partners to the Network
-Data for a new partner can be added by editing the `src/raw_data/people.tsv` file. See "Adding new people" above.
+Data for a new partner can be added by editing the `src/raw_data/partners.tsv` file. See "Adding new people" above.
 
 ### Adding News and Events to the Site
 
@@ -110,17 +122,6 @@ e.g.:
 
 #### `excerpt`
 A short description of the resource which will be displayed as text on the resources page. This must be written on a single line.
-
-### Adding Newsletters to the News and Events
-
-Similar to [above](#adding-news-and-events-to-the-site), adding a card for the Newsletters requires the following steps:
-
-1) Duplicate an existing `.njk` file in the 'resources' folder.
-2) Change the name of the `.njk` file using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
-3) Put the PDF in the folder `"src/assets/images/content/newsletters/"`
-4) Edit the content of the `.njk` file as [above](#adding-news-and-events-to-the-site) with the following 
-    - type: `resource`
-    - resource_link: `"/assets/images/content/newsletters/(filename).pdf"`
 
 ### Expertise Tags
 
