@@ -14,15 +14,15 @@ The quickest way to add content is to be added as a contributor to the repo. You
 
 The next step is to clone or fork the repository so that you can make changes locally. To do this, please read the documentation on [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
-If you would like to preview your changes locally, please follow these steps on ["running locally"](#running-locally)
+If you would like to preview your changes locally, please follow these steps on ["running locally"](#running-locally).
 
 ### Add a News or Event Item
 
-After forking the repository, go to your local drive and change the directory to the cloned repository. Follow these steps to add a News or Event item:
+After cloning or forking the repository, go to your local drive and change the directory to the repository. Follow these steps to add a News or Event item:
 
 1) From the root directory, go to the `src/resources` folder
 2) Duplicate an existing `.njk` file and rename it using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
-3) Place an image in the following folder: `src/assets/images/content/news`
+3) Place an image for the item in the following folder: `src/assets/images/content/news`
 4) Edit the content of the new `.njk` by changing the following fields:
     - title: `'item title'`
     - date: `yyyy-mm-dd`
