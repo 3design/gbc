@@ -34,7 +34,7 @@ After cloning or forking the repository, go to your local drive and change the d
 5) Save your file
 6) Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to `main` branch
 
-You can see an example of how the cards look by going the the [News & Events](https://3design.github.io/gbc/resources/0/) page.
+You can see an example of how the cards look by going to the [News & Events](https://3design.github.io/gbc/resources/0/) page.
 
 
 ### Add a Person to the Network
