@@ -29,7 +29,7 @@ These instructions assume a single developer is maintaining the site. If multipl
 ### Adding Partners to the Network
 Data for a new partner can be added by editing the `src/raw_data/people.tsv` file. See "Adding new people" above.
 
-### Adding News & Events to the Site
+### Adding News and Events to the Site
 
 News & Events are links to information distributed by the collaboration. These are stored as `.njk` files in the `src/resources/` directory. To add a new resource, copy one of the existing files and give it a new name appropriate for the resource content being added. You can then open the file to change its content, committing the changes as described [above](#adding-people-to-the-network):
 
@@ -56,13 +56,13 @@ e.g.:
 #### `excerpt`
 A short description of the resource which will be displayed as text on the resources page. This must be written on a single line.
 
-### Adding Newsletters to the News & Events
+### Adding Newsletters to the News and Events
 
-Similar to [above](#adding-news-&-events-to-the-site), adding a card for the Newsletters requires the following steps:
+Similar to [above](#adding-news-and-events-to-the-site), adding a card for the Newsletters requires the following steps:
 
 - Duplicate an existing `.njk` file in the 'resources' folder.
 - Change the name of the `.njk` file using the following naming convention: (year)(month)(day)-name.njk
-- Edit the content of the `.njk` file as [above](#adding-news-&-events-to-the-site) with the following 
+- Edit the content of the `.njk` file as [above](#adding-news-and-events-to-the-site) with the following 
     - type: resource
     - resource_link: "/assets/images/content/newsletters/(filename).pdf"
 
