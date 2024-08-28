@@ -39,8 +39,13 @@ A short title for the resource, which will be displayed on the resources page.
 #### `date`
 A date for the resource (e.g. publication date) in `yyyy-mm-dd` format
 
+#### `type`
+There are two types of posts:
+- resource | Use this type to indicate a link that goes to another page or content that is located on this website
+- external | Use this type to indicate a link that goes to an external web address
+
 #### `image`
-An optional filepath pointing to an image file to be displayed with the resource. This can be replaced with "" (empty opening and closing quotes) if no image is needed. Otherwise it should be a filepath starting with `/assets/images/content/resource_pages/`. Ensure that you copy the image into this directory so that it will be added to the website.
+An optional filepath pointing to an image file to be displayed with the resource. This can be replaced with "" (empty opening and closing quotes) if no image is needed. Otherwise it should be a filepath starting with `/assets/images/content/(folder name)`. Ensure that you copy the image into this directory so that it will be added to the website.
 
 #### `resource_link`: 
 An optional URL enclosed in quotation marks, linking to the resource at another location on the web.
@@ -50,6 +55,16 @@ e.g.:
 
 #### `excerpt`
 A short description of the resource which will be displayed as text on the resources page. This must be written on a single line.
+
+### Adding Newsletters to the News & Events
+
+Similar to [above](#adding-news-&-events-to-the-site), adding a card for the Newsletters requires the following steps:
+
+- Duplicate an existing `.njk` file in the 'resources' folder.
+- Change the name of the `.njk` file using the following naming convention: (year)(month)(day)-name.njk
+- Edit the content of the `.njk` file as [above](#adding-news-&-events-to-the-site) with the following 
+    - type: resource
+    - resource_link: "/assets/images/content/newsletters/(filename).pdf"
 
 ### Expertise Tags
 
