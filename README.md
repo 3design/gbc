@@ -2,6 +2,60 @@
 
 This repository contains the development and distribution code for the Global Brain Consortium website.
 
+## Quick Guide to Adding Content
+
+This section will detail how to add content to the website.
+
+### Request to Become a Contributor
+
+The quickest way to add content is to become a contributor is by sending a request to be added as a contributor to the repo. You can email derek.lo@mcin.ca to request this.
+
+### Clone or Fork the Repository
+
+The next step is to fork the repository so that you can make changes locally. To do this, please read the documentation on [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
+
+If you would like to preview your changes locally, please follow these steps on ["running locally"](#running-locally)
+
+### Add a News or Event Item
+
+After forking the repository, go to your local drive and change the directory to the cloned repository. Follow these steps to add a News or Event item:
+
+1) From the root directory, go to the `src/resources` folder
+2) Duplicate an existing `.njk` file and rename it using the following naming convention: `(yyyy)(mm)(dd)-name.njk`
+3) Place an image in the following folder: `src/assets/images/content/news`
+4) Edit the content of the new `.njk` by changing the following fields:
+    - title: `'item title'`
+    - date: `yyyy-mm-dd`
+    - type: `resource` or `external` 
+        - see [type explanation](#type) for more details
+    - image: `"/assets/images/content/news/(filename)"`
+    - resource_link: `"(link to the resource. this is optional)"`
+    - excerpt: `A brief description of the item in plain text with no special characters like colons or asteriks`
+5) Save your file
+6) Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to `main` branch
+
+You can see an example of how the cards look by going the the [News & Events](https://3design.github.io/gbc/resources/0/) page.
+
+
+### Add a Person to the Network
+
+The network page contains all the members of the Global Brain Consortium. To add a member, please follow these steps:
+
+1) Place an image of the member in the following folder: `src/assets/images/people`. The aspect ratio of the image should be square
+2) From the root directory, go to the `src/raw-data` folder
+3) Open `people.tsv` with your favorite editor (.tsv stands for Tab-Separated Values)
+4) In the field labelled `slug` type in the value `(first name)-(last name)`
+5) In the field labelled `name` type in the members name
+6) In the field labelled `image` type in the url as follows `/assets/images/people/(filename)`
+7) In the field labelled `affiliation` type in the members affiliation, preferrably a short version
+8) In the field labelled `steeringGroupMember` type in `FALSE` unless the member is part of the Steering Committee, in which case enter `TRUE`
+9) In the field labelled `expertiseTags` copy the fields from another entry and paste it here. The tag filter is not currently active on this page.
+10) In the field labelled `website` enter the url for the members website (optional)
+11) Save the `people.tsv` file
+12) Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to `main` branch
+
+---
+
 ## Content Management
 
 Most maintenance of this site will involve adding small pieces of content with standard format (such as new resource listings or new network members). This is achieved using a standard process of making commits to the remote git repository. If you are not familiar with git and GitHub, [this introduction](https://docs.github.com/en/get-started/quickstart/hello-world) may be useful.
