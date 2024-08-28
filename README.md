@@ -12,7 +12,7 @@ The quickest way to add content is to be added as a contributor to the repo. You
 
 ### Clone or Fork the Repository
 
-The next step is to fork the repository so that you can make changes locally. To do this, please read the documentation on [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
+The next step is to clone or fork the repository so that you can make changes locally. To do this, please read the documentation on [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
 If you would like to preview your changes locally, please follow these steps on ["running locally"](#running-locally)
 
