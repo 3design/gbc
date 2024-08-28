@@ -8,7 +8,7 @@ This section will detail how to add content to the website. For more detailed in
 
 ### Request to Become a Contributor
 
-The quickest way to add content is to become a contributor is by sending a request to be added as a contributor to the repo. You can email derek.lo@mcin.ca to request this.
+The quickest way to add content is to be added as a contributor to the repo. You can email derek.lo@mcin.ca to request this.
 
 ### Clone or Fork the Repository
 
