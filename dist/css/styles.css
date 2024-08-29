@@ -1101,10 +1101,6 @@ iframe.contact-form {
   place-content: center;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
