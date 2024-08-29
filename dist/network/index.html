@@ -213,7 +213,7 @@
             <div class="mx-5">
             
 <div class="bg-c-fg1-l max-w-screen-xl px-4 py-5 mx-auto lg:px-16">
-  <div class="max-w-screen-xl px-4 mx-auto lg:grid-cols-12" x-data="{selectedExpertise: [&#39;Clinical Trials&#39;,&#39;Ethics&#39;,&#39;Global Health&#39;,&#39;Haptics&#39;,&#39;Medical Imaging&#39;,&#39;Mental Health&#39;,&#39;Neurotechnology&#39;,&#39;Pain&#39;,&#39;Patient and Public Involvement and Engagement&#39;,&#39;Policy&#39;,&#39;Rehabilitation&#39;,&#39;Software&#39;,&#39;Surgery&#39;,&#39;Sustainability&#39;,&#39;Telemedicine&#39;,&#39;Wearable Technology&#39;], deselect(ex) {this.selectedExpertise = this.selectedExpertise.filter(item => item !== ex)}, select(ex) {if(this.selectedExpertise.indexOf(ex)) { this.selectedExpertise.push(ex)}}, isSelected(exList) {return (exList.split(',')).some(v => this.selectedExpertise.includes(v))}}">
+  <div class="max-w-screen-xl px-4 mx-auto lg:grid-cols-12" x-data="{selectedExpertise: [&#39;Clinical Trials&#39;,&#39;Ethics&#39;,&#39;Global Health&#39;,&#39;Haptics&#39;,&#39;Medical Imaging&#39;,&#39;Mental Health&#39;,&#39;Neurotechnology&#39;,&#39;Pain&#39;,&#39;Patient and Public Involvement and Engagement&#39;,&#39;Policy&#39;,&#39;Rehabilitation&#39;,&#39;Software&#39;,&#39;Surgery&#39;,&#39;Sustainability&#39;,&#39;Telemedicine&#39;,&#39;Wearable Technology&#39;,&#39;Testing&#39;], deselect(ex) {this.selectedExpertise = this.selectedExpertise.filter(item => item !== ex)}, select(ex) {if(this.selectedExpertise.indexOf(ex)) { this.selectedExpertise.push(ex)}}, isSelected(exList) {return (exList.split(',')).some(v => this.selectedExpertise.includes(v))}}">
     <div class="mr-auto place-self-center lg:col-span-10">
       <h1 id="members"
         class="text-center text-colour-dark  lg:text-left mb-8 text-2xl/snug font-extrabold tracking-normal md:text-3xl/snug xl:text-4xl/snug ">
@@ -286,6 +286,10 @@
         <button class="rounded-full px-4 py-2 mr-4 my-2 border-2 border-white" x-data="{ active: true }"
           @click="active ? deselect('Wearable Technology') : select('Wearable Technology'); active = !active"
           :class="{ 'text-white bg-c-fg3-l ': active,  'bg-gray-100 text-gray-400    ': !active }">Wearable Technology</button>
+        
+        <button class="rounded-full px-4 py-2 mr-4 my-2 border-2 border-white" x-data="{ active: true }"
+          @click="active ? deselect('Testing') : select('Testing'); active = !active"
+          :class="{ 'text-white bg-c-fg3-l ': active,  'bg-gray-100 text-gray-400    ': !active }">Testing</button>
         
       </div> -->
       <div class="flex flex-wrap">
