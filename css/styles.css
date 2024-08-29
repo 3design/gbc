@@ -919,6 +919,10 @@ iframe.contact-form {
   margin-bottom: 1.25rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -1742,6 +1746,10 @@ iframe.contact-form {
 
   .lg\:mb-16 {
     margin-bottom: 4rem;
+  }
+
+  .lg\:mb-6 {
+    margin-bottom: 1.5rem;
   }
 
   .lg\:mb-8 {
