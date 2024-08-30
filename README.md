@@ -107,9 +107,11 @@ A short title for the resource, which will be displayed on the resources page.
 A date for the resource (e.g. publication date) in `yyyy-mm-dd` format
 
 #### `type`
-There are two types of posts:
+There are four types of posts:
 - resource | Use this type to indicate a link that goes to another page or content that is located on this website
 - external | Use this type to indicate a link that goes to an external web address
+- youtube | Use this type to indicate a link goes to youtube
+- pdf | Use this type to indicate a link opens a pdf in the browser
 
 #### `image`
 An optional filepath pointing to an image file to be displayed with the resource. This can be replaced with "" (empty opening and closing quotes) if no image is needed. Otherwise it should be a filepath starting with `/assets/images/content/(folder name)`. Ensure that you copy the image into this directory so that it will be added to the website.
