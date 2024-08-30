@@ -26,7 +26,7 @@ After cloning or forking the repository, go to your local drive and change the d
 4) Edit the content of the new `.njk` by changing the following fields:
     - title: `'item title'`
     - date: `yyyy-mm-dd`
-    - type: `resource` or `external` 
+    - type: `resource` or `external` or `youtube` or `pdf` 
         - see [type explanation](#type) for more details
     - image: `"/assets/images/content/news/(filename)"`
     - resource_link: `"(link to the resource. this is optional)"`
