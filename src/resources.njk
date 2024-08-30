@@ -81,6 +81,10 @@ permalink: "resources/{{pagination.pageNumber}}/"
               rel="noopener noreferrer">
               {% if resource.data.type == "external" %}
               Go To Link
+              {% elif resource.data.type == "youtube" %}
+              View on YouTube
+              {% elif resource.data.type == "pdf" %}
+              Open PDF
               {%else%}
               Read More
               {%endif%}
