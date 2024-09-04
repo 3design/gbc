@@ -85,6 +85,8 @@ permalink: "resources/{{pagination.pageNumber}}/"
               View on YouTube
               {% elif resource.data.type == "pdf" %}
               Open PDF
+              {% elif resource.data.type == "register" %}
+              Register to Attend
               {%else%}
               Read More
               {%endif%}

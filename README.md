@@ -26,7 +26,7 @@ After cloning or forking the repository, go to your local drive and change the d
 4) Edit the content of the new `.njk` by changing the following fields:
     - title: `'item title'`
     - date: `yyyy-mm-dd`
-    - type: `resource` or `external` or `youtube` or `pdf` 
+    - type: `resource` or `external` or `youtube` or `pdf` or `register`
         - see [type explanation](#type) for more details
     - image: `"/assets/images/content/news/(filename)"`
     - resource_link: `"(link to the resource. this is optional)"`
@@ -108,10 +108,11 @@ A date for the resource (e.g. publication date) in `yyyy-mm-dd` format
 
 #### `type`
 There are four types of posts:
-- resource | Use this type to indicate a link that goes to another page or content that is located on this website
-- external | Use this type to indicate a link that goes to an external web address
-- youtube | Use this type to indicate a link goes to youtube
-- pdf | Use this type to indicate a link opens a pdf in the browser
+- resource | Use this type to indicate a link that goes to another page or content that is located on this website. The label is `Read More`
+- external | Use this type to indicate a link that goes to an external web address. The label is `Go To Link`
+- youtube | Use this type to indicate a link goes to youtube. The label is `View on YouTube`
+- pdf | Use this type to indicate a link opens a pdf in the browser. The label is `Open PDF`
+- register | Use this type to indicate a link that goes to a registration site. The label is `Register to Attend`
 
 #### `image`
 An optional filepath pointing to an image file to be displayed with the resource. This can be replaced with "" (empty opening and closing quotes) if no image is needed. Otherwise it should be a filepath starting with `/assets/images/content/(folder name)`. Ensure that you copy the image into this directory so that it will be added to the website.
